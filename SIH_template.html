@@ -1,0 +1,36 @@
+{% extends "bootstrap/base.html" %}
+{% block content %}
+
+<div class="container">
+	<div class="jumbotron" style="background-color:blue">
+	<h2> SIH_PROJECR </h2>
+
+	</div>
+</div>
+
+<div class="">
+	<font method = "POST" action="{{ url_for('predict')}}">
+		<input type="text" name="querry_Name">
+		<button type="submit" class="btn btn-primary">PREDICT</button>
+		
+	</font>
+	
+</div>
+
+<div>
+	{% if predictions ==0 %}
+	<p>category_1_depends on the problem</p>
+
+	{% elif predictions == 1 %}
+	<p>category_2</p>
+
+	{% endif %}
+</div>
+
+{% endblock %}
+
+{% block style %}
+{{super()}}
+<link rel="stylesheet" type="text/css" href="{{ url_for(.'static', filename='css/style.css')}}">
+
+{% endblock %}

@@ -1,9 +1,0 @@
-# This is a generated file; do not edit or check into version control.
-cloud_firestore=/home/av/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.13.0+1/
-firebase_auth=/home/av/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.3+1/
-firebase_auth_web=/home/av/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.1+2/
-firebase_core=/home/av/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.3+2/
-firebase_core_web=/home/av/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/
-url_launcher=/home/av/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.4.1/
-url_launcher_macos=/home/av/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+2/
-url_launcher_web=/home/av/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.0+2/

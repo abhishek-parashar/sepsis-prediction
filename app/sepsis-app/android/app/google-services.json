@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "360052848066",
+    "firebase_url": "https://sepsis-a6ecb.firebaseio.com",
+    "project_id": "sepsis-a6ecb",
+    "storage_bucket": "sepsis-a6ecb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360052848066:android:ffea4575dadf3fe6df525b",
+        "android_client_info": {
+          "package_name": "com.example.sepsis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360052848066-8ffg2icjv3jb97l8r3igvv75gr80h4tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIcYFycHxpk7sY6zrLuM-l3ibqEimqfvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360052848066-8ffg2icjv3jb97l8r3igvv75gr80h4tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

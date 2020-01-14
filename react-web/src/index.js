@@ -5,6 +5,7 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import Dashboard from './dashboard/Dashboard';
 import login from './login';
 import Predict from './Predict';
+import CustomizedTables from './Table';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
@@ -18,7 +19,7 @@ const routing = (
         <Route exact path="/" component={Dashboard} />
         <Route exact path="/login" component={login} />
         <Route exact path="/predict" component={Predict} />
-        <Route exact path="/history" component={login} />
+        <Route exact path="/table" component={CustomizedTables} />
       {/* </div> */}
     </Router>
 )

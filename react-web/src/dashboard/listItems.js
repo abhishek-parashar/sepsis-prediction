@@ -20,12 +20,12 @@ export const mainListItems = (
         <ListItemText primary="Dashboard" />
       </ListItem>
     </Link>
-    <Link to="/history">
+    <Link to="/table">
       <ListItem button>
         <ListItemIcon>
           <BarChartIcon />
         </ListItemIcon>
-        <ListItemText primary="History" />
+        <ListItemText primary="Table" />
       </ListItem>
     </Link>
     <Link to="/predict">
